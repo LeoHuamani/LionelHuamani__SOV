@@ -1,0 +1,160 @@
+body {
+    margin: 0px;
+    background-color: rgb(228, 242, 250);
+}
+
+/*Emcabezado*/
+
+#titulo {
+    background-color: rgb(91, 91, 122);
+    color: whitesmoke;
+    padding: 3rem 2rem;
+}
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#encabezado {
+    text-align: center;
+}
+
+/* Inicio*/
+
+#encabezado {
+    text-align: center;
+}
+
+
+#somos {
+    color: blue;
+}
+
+#History {
+    color: red;
+}
+
+/* Parte2 */
+#proyec {
+    color: red;
+}
+
+#vision {
+    color: chocolate;
+}
+
+#mision {
+    color: chocolate;
+}
+
+#visitas {
+    color: blue;
+    text-align: center;
+}
+
+/*texto de pagina*/
+
+
+
+#texto {
+    float: left;
+    width: 300px;
+}
+
+/*Imagenes*/
+
+#logo {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(57, 56, 56);
+
+}
+
+#inicio {
+    width: 350px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgb(101, 101, 101);
+}
+
+#img1 {
+    width: 300px;
+    height: auto;
+    margin-left: 300px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(101, 101, 101);
+
+}
+
+#img2 {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgb(101, 101, 101);
+}
+
+/*Termino*/
+
+.Ubicacion {
+    background-color: rgb(35, 94, 196);
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+    background-size: contain;
+    color: antiquewhite;
+    border: solid 1px black;
+}
+
+#inf {
+    color: white;
+}
+
+#ir {
+    margin-left: 400px;
+    color: slategrey;
+}
+
+#fin {
+    background-color: rgb(115, 109, 109);
+    padding: 3rem 2rem;
+}
+
+/*botones*/
+
+button {
+    font-size: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100%);
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 1em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+}
+
+button:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+}
+
+#selector {
+    margin-left: 600px;
+}
